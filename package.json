@@ -1,0 +1,28 @@
+{
+  "name": "interviews",
+  "version": "0.1.0",
+  "description": "BC Coding Challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "Faker": "~0.7.0",
+    "async": "^2.0.1",
+    "bluebird": "^3.4.1",
+    "lodash": "^4.13.1"
+  },
+  "devDependencies": {
+    "ava": "^0.15.2"
+  },
+  "ava": {
+    "files": [
+      "**/*.spec.js"
+    ],
+    "failFast": true,
+    "tap": false
+  }
+}
